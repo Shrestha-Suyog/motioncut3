@@ -1,35 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Product Page</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Product Page</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Shop</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    
-    <main>
-        <section class="product">
-            <div class="product-image">
-                <img src="product.jpg" alt="Product Image">
-            </div>
-            <div class="product-details">
-                <h1>Apple MacBook Air Laptop</h1>
-                <p class="price">₹89,900/-</p>
-                <p class="description">Apple M1 chip, 13.3-inch/33.74 cm Retina Display, 8GB RAM, 
-                    256GB SSD Storage, Backlit Keyboard, FaceTime HD Camera, Touch ID. Works with iPhone/iPad; Space Grey</p>
-                <button class="add-to-cart">Add to Cart</button>
-            </div>
-        </section>
-    </main>
+  <header>
+    <nav class="navbar">
+      <div class="logo">AppStore</div>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Shop</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="product">
+      <div class="product-image">
+        <img src="product.jpg" alt="MacBook Air">
+      </div>
+      <div class="product-details">
+        <h1>Apple MacBook Air Laptop</h1>
+        <p class="price">₹89,900/-</p>
+        <p class="description">Apple M1 chip, 13.3-inch Retina Display, 8GB RAM, 256GB SSD, Backlit Keyboard, Touch ID.</p>
+        <button class="add-to-cart">Add to Cart</button>
+
+        <div class="rating-section">
+          <h3>Rate this Product:</h3>
+          <div class="star-rating">
+            <input type="radio" name="rating" id="star5"><label for="star5">★</label>
+            <input type="radio" name="rating" id="star4"><label for="star4">★</label>
+            <input type="radio" name="rating" id="star3"><label for="star3">★</label>
+            <input type="radio" name="rating" id="star2"><label for="star2">★</label>
+            <input type="radio" name="rating" id="star1"><label for="star1">★</label>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <main>
+    <section class="product">
+      <div class="product-image">
+        <img src="product1.jpg" alt="MacBook Air">
+      </div>
+      <div class="product-details">
+        <h1>Apple iPhone 14 Pro Unlocked 128GB</h1>
+        <p class="price">₹79,799/-</p>
+        <p class="description">Apple iPhone 14 Pro smartphone.Features 6.1″ display, Apple A16 Bionic chipset, 3200 mAh battery, 1024 GB storage, 6 GB RAM.</p>
+        <button class="add-to-cart">Add to Cart</button>
+
+        <div class="rating-section">
+          <h3>Rate this Product:</h3>
+          <div class="star-rating">
+            <input type="radio" name="rating" id="star5"><label for="star5">★</label>
+            <input type="radio" name="rating" id="star4"><label for="star4">★</label>
+            <input type="radio" name="rating" id="star3"><label for="star3">★</label>
+            <input type="radio" name="rating" id="star2"><label for="star2">★</label>
+            <input type="radio" name="rating" id="star1"><label for="star1">★</label>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  
 </body>
 </html>
